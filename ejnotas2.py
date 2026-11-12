@@ -29,8 +29,8 @@ while True:
                 elif equipos_asignar > equipos_disponibles:
                     print("No puede superar los equipos disponibles, que son:", equipos_disponibles)
                 else:
-                    equipos_disponibles -= equipos_asignar
-                    total_equipos_asignado += equipos_asignar
+                    equipos_disponibles -= equipos_asignar #resta -=
+                    total_equipos_asignado += equipos_asignar #suma +=
                     print(f"Se asignaron {equipos_asignar} equipos. Equipos disponibles: {equipos_disponibles}")
             except ValueError:
                 print("Error, ingrese un número válido.")
