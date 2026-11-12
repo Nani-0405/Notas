@@ -43,7 +43,7 @@ def main():
             "Ingrese el número de publicaciones: ",
             "¡Error de registro! Ingresa un número entero positivo para el número de publicaciones.",
         )
-
+ 
         if publicaciones > 10:
             total_principales += 1
             print(f"El científico {id_cientifico} es un Investigador Principal.")

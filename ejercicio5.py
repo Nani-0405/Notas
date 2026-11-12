@@ -14,7 +14,7 @@ def pedir_cantidad(mensaje):
         except ValueError:
             print("Error: debes ingresar un número entero.")
 
-
+ 
 def mostrar_menu():
     print("\n=== MENÚ PRINCIPAL ===")
     print("1.- Equipos disponibles.")
